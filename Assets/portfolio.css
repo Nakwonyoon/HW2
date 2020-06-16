@@ -2,7 +2,7 @@ body {
     background-color: lightgray;
 }
 .card{
-    width: 100%;
+    /* width: 100%; */
 margin-left: 10px;
 margin-top: 10px;
 }
@@ -17,7 +17,6 @@ margin-top: 10px;
 }
 
 .fixed-bottom {
-    
     width:100%;
     bottom:0;
 }
@@ -32,6 +31,11 @@ hr {
     border-width:0;
     color:gray;
     background-color:gray;
+}
+.image-content {
+    padding: 10px;
+    margin: auto;
+    width: 200px;
 }
 
 @media only screen and (max-width: 720px) {
@@ -48,3 +52,4 @@ hr {
         width: auto;
     }
   }
+  
