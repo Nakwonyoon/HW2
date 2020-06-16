@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+}
+
+
+.fixed-bottom,
+.navbar {
+    background-color: coral;
+}
+
+.fixed-bottom {
+    padding: 20px;
+    width:100%;
+    bottom:0;
+}
+a {
+    color: black;
+    text-align: center;
+    position: relative;
+    flex: auto;
+}
+hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+.card {
+    padding: inherit;
+    width: 700px;
+}
+@media only screen and (max-width: 720px) {
+    body {
+        width: 600px;
+    }
+    .navbar-brand,
+    .navbar,
+    .nav-link,
+    .card {
+
+        width: auto;
+    }
+  }

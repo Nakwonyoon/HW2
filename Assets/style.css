@@ -1,0 +1,48 @@
+body {
+    background-color: lightgray;
+}
+.card{
+    width: 100%;
+margin-left: 10px;
+margin-top: 10px;
+}
+.card-body{
+    margin-bottom: -1rem;
+    padding: .5rem;
+}
+.fixed-bottom,
+.navbar {
+    background-color: coral;
+}
+
+.fixed-bottom {
+    padding: 20px;
+    width:100%;
+    bottom:0;
+}
+a {
+    color: black;
+    text-align: center;
+    position: relative;
+    flex: auto;
+}
+hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+@media only screen and (max-width: 720px) {
+    body {
+        width: 600px;
+    }
+    .container {
+        width: 600px;
+    }
+    .navbar-brand,
+    .navbar,
+    .nav-link,
+    .card {
+        width: auto;
+    }
+  }
